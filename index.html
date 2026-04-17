@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+</head>
+
+<body>
+
+<div class="sidebar">
+  <h2>Spotify da Shopee</h2>
+  
+  <div class="menu">
+    <p class="active"> 
+       <i class="fa-solid fa-house"></i> Home</p>
+
+    <p>
+       <i class="fa-solid fa-magnifying-glass"></i> Buscar</p>
+
+    <p>
+      <i class="fa-solid fa-book"></i> Biblioteca</p>
+  </div>
+</div>
+
+<div class="playlist-section">
+  <p class="title">Suas Playlists</p>
+
+  <p class="playlist" data-playlist="hits">🔥 Hits</p>
+  <p class="playlist" data-playlist="sofrencia">💔 Sofrência</p>
+  <p class="playlist" data-playlist="treino">🎧 Treino</p>
+</div>
+
+<div class="main">
+
+  <div class="header">
+    <input type="text" placeholder="O que você quer ouvir hoje?" />
+  
+    <div class="user">
+      LOURRANA 👤
+    </div>
+  </div>
+
+       <h1>Boa noite</h1>
+
+<div class="cards">
+
+<div class="card">
+  <div class="img-container">
+    <img src="https://picsum.photos/200?1">
+    <button class="play">▶</button>
+  </div>
+  <p>Treino</p>
+</div>
+
+<div class="card">
+  <div class="img-container">
+    <img src="https://picsum.photos/200?2">
+    <button class="play">▶</button>
+  </div>
+  <p>Estudos</p>
+</div>
+
+
+<div class="card">
+  <div class="img-container">
+    <img src="https://picsum.photos/200?3">
+    <button class="play">▶</button>
+  </div>
+  <p>Favoritos</p>
+</div>
+
+<div class="card">
+  <div class="img-container">
+    <img src="https://picsum.photos/200?4">
+    <button class="play">▶</button>
+  </div>
+  <p>Pagode</p>
+</div>
+
+<div class="card">
+  <div class="img-container">
+    <img src="https://picsum.photos/200?5">
+    <button class="play">▶</button>
+  </div>
+  <p>Forró</p>
+</div>
+
+<div class="card">
+  <div class="img-container">
+    <img src="https://picsum.photos/200?6">
+    <button class="play">▶</button>
+  </div>
+  <p>Eletrônica</p>
+</div>
+
+<div class="player">
+  <p id="current-music">Nenhuma música tocando</p>
+
+  <button id="playPause">⏯</button>
+
+  <input type="range" id="progress" value="0">
+
+  <span id="time">0:00</span>
+</div>
+
+<audio id="audio"></audio></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
