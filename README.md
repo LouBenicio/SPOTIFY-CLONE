@@ -13,4 +13,4 @@ Neste projeto, foquei em aprender:
 - Efeitos de hover em cards.
 
 ## 🔗 Link do projeto
-[Clique aqui para ver o site no ar](COLE_AQUI_O_LINK_DA_VERCEL)
+[[Clique aqui para ver o site no ar](https://spotify-clone-pearl-eight.vercel.app/)
