@@ -92,3 +92,19 @@ const playlists = {
     { name: "Treino 2", src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3", img: "https://picsum.photos/200?15" }
   ]
 };
+
+const sidebar = document.querySelector(".sidebar");
+const toggleBtn = document.getElementById("toggleSidebar");
+
+let isPinned = false;
+
+toggleBtn.addEventListener("click", () => {
+  isPinned = !isPinned;
+  sidebar.classList.toggle("open");
+});
+
+sidebar.addEventListener("mouseleave", () => {
+  if (!isPinned) {
+    sidebar.classList.remove("open");
+  }
+});
