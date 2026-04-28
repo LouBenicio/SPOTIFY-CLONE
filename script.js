@@ -10,27 +10,27 @@ const time = document.getElementById("time");
 const songs = [
   {
     name: "Treino",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    src: "music/Treino.mp3"
   },
   {    
    name: "Estudos",
-   src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+   src: "music/Estudos.mp3"
   },
   {
     name: "Favoritas",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    src: "music/Favoritos.mp3"
   },
   {
     name: "Pagode",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    src: "music/Pagode.mp3"
   },
   {
     name: "Forró",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    src: "music/Forro.mp3"
   },
   {
     name: "Eletrônica",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    src: "music/Eletronica.mp3"
   }
 ];
 
